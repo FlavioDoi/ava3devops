@@ -28,3 +28,28 @@ public class Main {
 	}
 
 }
+Morador morador=new Morador();
+
+        System.out.print("Nome: ");
+        morador.setNome(scanner.nextLine());
+
+        System.out.print("RG: ");
+        morador.setRg(scanner.nextLine());
+
+        System.out.print("CPF: ");
+        morador.setCpf(scanner.nextLine());
+
+        System.out.print("Data de Nascimento: ");
+        morador.setDataNascimento(scanner.nextLine());
+
+        System.out.print("E-mail: ");
+        morador.setEmail(scanner.nextLine());
+
+        System.out.print("Telefone: ");
+        morador.setTelefone(scanner.nextLine());
+
+        System.out.print("Apartamento: ");
+        morador.setApartamento(scanner.nextLine());
+
+        System.out.print("Bloco: ");
+        morador.setBloco(scanner.nextLine());
