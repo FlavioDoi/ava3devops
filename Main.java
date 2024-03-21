@@ -53,3 +53,21 @@ public class Main {
 	}
 
 }
+// Parte Juliana
+System.out.println("Telefone: ");
+            telefone[i] = sc.nextLine();
+
+            System.out.println("Login: ");
+            login[i] = sc.nextLine();
+
+            System.out.println("Senha: ");
+            senha[i] = sc.nextLine();
+
+            System.out.println("Apartamento: ");
+            apartamento[i] = sc.nextLine();
+
+            System.out.println("Bloco: ");
+            bloco[i] = sc.nextLine();
+   }
+   System.out.println("\nRegistros cadastrados:");
+   
