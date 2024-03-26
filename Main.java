@@ -70,4 +70,20 @@ System.out.println("Telefone: ");
             bloco[i] = sc.nextLine();
    }
    System.out.println("\nRegistros cadastrados:");
-   
+
+  // Parte Laura 
+System.out.println("----- Moradores Cadastrados -----");
+ for (int i = 0; i < numMoradores; i++) {
+ System.out.println("Morador #" + (i + 1));
+ System.out.println("Nome: " + moradores[i].getNome());
+ System.out.println("RG: " + moradores[i].getRg());
+ System.out.println("CPF: " + moradores[i].getCpf());
+ System.out.println("Data de Nascimento: " + moradores[i].getDataNascimento());
+ System.out.println("E-mail: " + moradores[i].getEmail());
+ System.out.println("Telefone: " + moradores[i].getTelefone());
+ System.out.println("Apartamento: " + moradores[i].getApartamento());
+ System.out.println("Bloco: " + moradores[i].getBloco());
+ System.out.println("------------------------");
+ }
+ scanner.close();
+
